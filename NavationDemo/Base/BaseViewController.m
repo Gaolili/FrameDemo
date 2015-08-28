@@ -12,6 +12,7 @@
 
 #pragma mark - titlte
 - (void) addTitle:(NSString *)titles{
+    
     self.navigationItem.title = titles;
 }
 

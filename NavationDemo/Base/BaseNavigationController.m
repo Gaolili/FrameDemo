@@ -8,6 +8,7 @@
     self.navigationBar.translucent = NO;
     self.navigationBar.barTintColor = [UIColor purpleColor];
     self.navigationBar.tintColor = [UIColor orangeColor];
+    [self.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
     UIImage * backImg = [[UIImage imageNamed:@"back"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     [[UINavigationBar appearance] setBackIndicatorImage:backImg];
     [[UINavigationBar appearance] setBackIndicatorTransitionMaskImage:backImg];

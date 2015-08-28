@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		2F46EAE91B9037A400D39775 /* BaseIntroductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F46EAE81B9037A400D39775 /* BaseIntroductViewController.m */; };
 		2F46EAF01B905DA300D39775 /* UITextField+LeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F46EAEF1B905DA300D39775 /* UITextField+LeftView.m */; };
+		2F46EAF61B906E4800D39775 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F46EAF51B906E4800D39775 /* CustomCell.m */; };
+		2F46EAF91B9072E600D39775 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F46EAF81B9072E600D39775 /* UserModel.m */; };
+		2F46EAFC1B90731B00D39775 /* UserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F46EAFB1B90731B00D39775 /* UserViewModel.m */; };
 		2F4DC9571B8EB0910033FC4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9561B8EB0910033FC4E /* main.m */; };
 		2F4DC95A1B8EB0910033FC4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9591B8EB0910033FC4E /* AppDelegate.m */; };
 		2F4DC95D1B8EB0910033FC4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC95C1B8EB0910033FC4E /* ViewController.m */; };
@@ -45,6 +48,12 @@
 		2F46EAE81B9037A400D39775 /* BaseIntroductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseIntroductViewController.m; sourceTree = "<group>"; };
 		2F46EAEE1B905DA300D39775 /* UITextField+LeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LeftView.h"; sourceTree = "<group>"; };
 		2F46EAEF1B905DA300D39775 /* UITextField+LeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LeftView.m"; sourceTree = "<group>"; };
+		2F46EAF41B906E4800D39775 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		2F46EAF51B906E4800D39775 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		2F46EAF71B9072E600D39775 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		2F46EAF81B9072E600D39775 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		2F46EAFA1B90731B00D39775 /* UserViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewModel.h; sourceTree = "<group>"; };
+		2F46EAFB1B90731B00D39775 /* UserViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewModel.m; sourceTree = "<group>"; };
 		2F4DC9511B8EB0910033FC4E /* NavationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4DC9551B8EB0910033FC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F4DC9561B8EB0910033FC4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,6 +120,33 @@
 			path = Catory;
 			sourceTree = "<group>";
 		};
+		2F46EAF11B906D7100D39775 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F46EAF71B9072E600D39775 /* UserModel.h */,
+				2F46EAF81B9072E600D39775 /* UserModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2F46EAF21B906D7800D39775 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2F46EAFA1B90731B00D39775 /* UserViewModel.h */,
+				2F46EAFB1B90731B00D39775 /* UserViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2F46EAF31B906D7800D39775 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F46EAF41B906E4800D39775 /* CustomCell.h */,
+				2F46EAF51B906E4800D39775 /* CustomCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2F4DC9481B8EB0910033FC4E = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +168,9 @@
 		2F4DC9531B8EB0910033FC4E /* NavationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2F46EAF21B906D7800D39775 /* ViewModel */,
+				2F46EAF31B906D7800D39775 /* Views */,
+				2F46EAF11B906D7100D39775 /* Model */,
 				2F46EAED1B905D5B00D39775 /* Catory */,
 				2F4DC98E1B8EBD630033FC4E /* ViewControllers */,
 				2F4DC97A1B8EB4730033FC4E /* Base */,
@@ -329,13 +368,16 @@
 				2F4DC9A11B8F016C0033FC4E /* PageOneViewController.m in Sources */,
 				2F4DC9AA1B8F0E7D0033FC4E /* FiveViewController.m in Sources */,
 				2F4DC9991B8EBD630033FC4E /* SecondViewController.m in Sources */,
+				2F46EAF61B906E4800D39775 /* CustomCell.m in Sources */,
 				2F4DC95D1B8EB0910033FC4E /* ViewController.m in Sources */,
 				2F4DC99D1B8EFAC60033FC4E /* BasePageViewController.m in Sources */,
 				2F4DC9A71B8F06B20033FC4E /* PageThreeViewController.m in Sources */,
 				2F4DC99A1B8EBD630033FC4E /* ThreeViewController.m in Sources */,
+				2F46EAFC1B90731B00D39775 /* UserViewModel.m in Sources */,
 				2F4DC95A1B8EB0910033FC4E /* AppDelegate.m in Sources */,
 				2F46EAF01B905DA300D39775 /* UITextField+LeftView.m in Sources */,
 				2F4DC9571B8EB0910033FC4E /* main.m in Sources */,
+				2F46EAF91B9072E600D39775 /* UserModel.m in Sources */,
 				2F46EAE91B9037A400D39775 /* BaseIntroductViewController.m in Sources */,
 				2F4DC9AD1B8F19190033FC4E /* BaseNavigationController.m in Sources */,
 			);

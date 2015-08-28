@@ -7,9 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseIntroductViewController.h"
 #import "BaseTabBarController.h"
 @interface AppDelegate ()
-
+@property (nonatomic, strong)BaseIntroductViewController * introViewController;
+@property (nonatomic, strong)BaseTabBarController * tarBarViewController;
 @end
 
 @implementation AppDelegate
@@ -19,16 +21,44 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    
-    BaseTabBarController * tab = [[BaseTabBarController alloc]init];
-    
-    [self.window setRootViewController:tab];
-    
+    if ([self shouldIntrolVC]) {
+        [self.window setRootViewController:self.introViewController];
+    }else{
+        [self.window setRootViewController:self.tarBarViewController];
+    }
     
     [self.window makeKeyAndVisible];
     return YES;
 }
 
+
+
+- (BaseIntroductViewController *)introViewController{
+    if (!_introViewController) {
+        _introViewController = [[BaseIntroductViewController alloc]init];
+        _introViewController.intrImgArr = @[@"intro_1",@"intro_2",@"intro_3"];
+    }
+    return _introViewController;
+}
+
+- (BaseTabBarController *)tarBarViewController{
+    if (!_tarBarViewController) {
+        _tarBarViewController = [[BaseTabBarController alloc]init];
+    }
+    return _tarBarViewController;
+}
+
+
+- (BOOL)shouldIntrolVC{
+    NSDictionary * infoDic = [[NSBundle mainBundle] infoDictionary];
+    NSString * bundleVersion = infoDic[@"CFBundleVersion"];
+    NSString * lastBundleVersion = [[NSUserDefaults standardUserDefaults] objectForKey:@"lastBundleVersion"];
+    if ([bundleVersion isEqualToString:lastBundleVersion]) {
+        return NO;
+    }else{
+        return YES;
+    }
+}
 
 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F46EAE91B9037A400D39775 /* BaseIntroductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F46EAE81B9037A400D39775 /* BaseIntroductViewController.m */; };
 		2F4DC9571B8EB0910033FC4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9561B8EB0910033FC4E /* main.m */; };
 		2F4DC95A1B8EB0910033FC4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9591B8EB0910033FC4E /* AppDelegate.m */; };
 		2F4DC95D1B8EB0910033FC4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC95C1B8EB0910033FC4E /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F46EAE71B9037A400D39775 /* BaseIntroductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseIntroductViewController.h; sourceTree = "<group>"; };
+		2F46EAE81B9037A400D39775 /* BaseIntroductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseIntroductViewController.m; sourceTree = "<group>"; };
 		2F4DC9511B8EB0910033FC4E /* NavationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F4DC9551B8EB0910033FC4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F4DC9561B8EB0910033FC4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -168,6 +171,8 @@
 				2F4DC99C1B8EFAC60033FC4E /* BasePageViewController.m */,
 				2F4DC9AB1B8F19190033FC4E /* BaseNavigationController.h */,
 				2F4DC9AC1B8F19190033FC4E /* BaseNavigationController.m */,
+				2F46EAE71B9037A400D39775 /* BaseIntroductViewController.h */,
+				2F46EAE81B9037A400D39775 /* BaseIntroductViewController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -317,6 +322,7 @@
 				2F4DC99A1B8EBD630033FC4E /* ThreeViewController.m in Sources */,
 				2F4DC95A1B8EB0910033FC4E /* AppDelegate.m in Sources */,
 				2F4DC9571B8EB0910033FC4E /* main.m in Sources */,
+				2F46EAE91B9037A400D39775 /* BaseIntroductViewController.m in Sources */,
 				2F4DC9AD1B8F19190033FC4E /* BaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

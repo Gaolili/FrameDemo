@@ -5,7 +5,7 @@
 @implementation FourViewController
 -(void)viewDidLoad{
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    [self addTitle:@"test4"];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{

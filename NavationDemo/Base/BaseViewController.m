@@ -10,6 +10,12 @@
     
 }
 
+#pragma mark - titlte
+- (void) addTitle:(NSString *)titles{
+    self.navigationItem.title = titles;
+}
+
+#pragma mark - leftOrRight Item
 - (void)addLeftItem:(NSString *)leftImg leftTitle:(NSString *)leftTitle{
     UIButton * leftBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     [leftBtn addTarget:self action:@selector(leftItemAction:) forControlEvents:UIControlEventTouchUpInside];
@@ -63,11 +69,6 @@
     
 }
 
-- (void)addCenterView:(UIView *)view{
-    self.navigationItem.titleView = view;
-}
-
-
 - (void)addrightItems:(NSArray *)rightItems{
     NSMutableArray * mutabArr = [NSMutableArray array];
     for (int i =0; i<rightItems.count; i++) {
@@ -80,6 +81,11 @@
         [mutabArr addObject:barItem];
     }
     self.navigationItem.rightBarButtonItems =mutabArr;
+}
+
+#pragma mark - centerView
+- (void)addCenterView:(UIView *)view{
+    self.navigationItem.titleView = view;
 }
 
 

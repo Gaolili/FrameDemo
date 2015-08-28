@@ -6,7 +6,6 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
-   
     [self setTabBarViewController];
 }
 

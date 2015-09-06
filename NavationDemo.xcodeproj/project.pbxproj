@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2F16F9301B9C252300ED9DED /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F92E1B9C252300ED9DED /* ChatViewController.m */; };
-		2F16F9331B9C254400ED9DED /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F9321B9C254400ED9DED /* ChatCell.m */; };
 		2F16F94F1B9C2B5400ED9DED /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F9481B9C2B5400ED9DED /* UserModel.m */; };
 		2F16F9501B9C2B5400ED9DED /* UserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F94B1B9C2B5400ED9DED /* UserViewModel.m */; };
 		2F16F9511B9C2B5400ED9DED /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F94E1B9C2B5400ED9DED /* CustomCell.m */; };
@@ -18,6 +17,8 @@
 		2F16F9641B9C2BE900ED9DED /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F95E1B9C2BE900ED9DED /* ThreeViewController.m */; };
 		2F16F9651B9C2BE900ED9DED /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F9611B9C2BE900ED9DED /* SecondViewController.m */; };
 		2F16F96C1B9C31BB00ED9DED /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F96B1B9C31BB00ED9DED /* ChatModel.m */; };
+		2F16F9711B9C473400ED9DED /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F96F1B9C473400ED9DED /* ChatCell.m */; };
+		2F16F9741B9C47DE00ED9DED /* CustomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F9731B9C47DE00ED9DED /* CustomToolBar.m */; };
 		2F46EAE91B9037A400D39775 /* BaseIntroductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F46EAE81B9037A400D39775 /* BaseIntroductViewController.m */; };
 		2F46EAF01B905DA300D39775 /* UITextField+LeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F46EAEF1B905DA300D39775 /* UITextField+LeftView.m */; };
 		2F4DC9571B8EB0910033FC4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9561B8EB0910033FC4E /* main.m */; };
@@ -49,8 +50,6 @@
 /* Begin PBXFileReference section */
 		2F16F92D1B9C252300ED9DED /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		2F16F92E1B9C252300ED9DED /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
-		2F16F9311B9C254400ED9DED /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
-		2F16F9321B9C254400ED9DED /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
 		2F16F9471B9C2B5400ED9DED /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		2F16F9481B9C2B5400ED9DED /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		2F16F94A1B9C2B5400ED9DED /* UserViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewModel.h; sourceTree = "<group>"; };
@@ -70,6 +69,11 @@
 		2F16F9691B9C2CE200ED9DED /* AppConfig.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConfig.pch; sourceTree = "<group>"; };
 		2F16F96A1B9C31BB00ED9DED /* ChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
 		2F16F96B1B9C31BB00ED9DED /* ChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
+		2F16F96E1B9C473400ED9DED /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
+		2F16F96F1B9C473400ED9DED /* ChatCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatCell.m; sourceTree = "<group>"; };
+		2F16F9721B9C47DE00ED9DED /* CustomToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomToolBar.h; sourceTree = "<group>"; };
+		2F16F9731B9C47DE00ED9DED /* CustomToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomToolBar.m; sourceTree = "<group>"; };
+		2F16F9761B9C4D3900ED9DED /* GlobeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobeHeader.h; sourceTree = "<group>"; };
 		2F46EAE71B9037A400D39775 /* BaseIntroductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseIntroductViewController.h; sourceTree = "<group>"; };
 		2F46EAE81B9037A400D39775 /* BaseIntroductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseIntroductViewController.m; sourceTree = "<group>"; };
 		2F46EAEE1B905DA300D39775 /* UITextField+LeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LeftView.h"; sourceTree = "<group>"; };
@@ -162,8 +166,8 @@
 		2F16F92F1B9C252300ED9DED /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				2F16F9311B9C254400ED9DED /* ChatCell.h */,
-				2F16F9321B9C254400ED9DED /* ChatCell.m */,
+				2F16F96D1B9C473400ED9DED /* Cells */,
+				2F16F9701B9C473400ED9DED /* ToolBar */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -172,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				2F16F9691B9C2CE200ED9DED /* AppConfig.pch */,
+				2F16F9761B9C4D3900ED9DED /* GlobeHeader.h */,
 			);
 			path = AppConfig;
 			sourceTree = "<group>";
@@ -269,6 +274,24 @@
 				2F16F9611B9C2BE900ED9DED /* SecondViewController.m */,
 			);
 			path = Two;
+			sourceTree = "<group>";
+		};
+		2F16F96D1B9C473400ED9DED /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2F16F96E1B9C473400ED9DED /* ChatCell.h */,
+				2F16F96F1B9C473400ED9DED /* ChatCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2F16F9701B9C473400ED9DED /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				2F16F9721B9C47DE00ED9DED /* CustomToolBar.h */,
+				2F16F9731B9C47DE00ED9DED /* CustomToolBar.m */,
+			);
+			path = ToolBar;
 			sourceTree = "<group>";
 		};
 		2F46EAED1B905D5B00D39775 /* Catory */ = {
@@ -535,13 +558,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F16F9741B9C47DE00ED9DED /* CustomToolBar.m in Sources */,
 				2F4DC97D1B8EB4A40033FC4E /* BaseTabBarController.m in Sources */,
 				2F16F9511B9C2B5400ED9DED /* CustomCell.m in Sources */,
 				2F16F9631B9C2BE900ED9DED /* FourViewController.m in Sources */,
 				2F4DC9801B8EB4E80033FC4E /* BaseViewController.m in Sources */,
 				2F4DC9A41B8F01780033FC4E /* PageTwoViewController.m in Sources */,
+				2F16F9711B9C473400ED9DED /* ChatCell.m in Sources */,
 				2F16F94F1B9C2B5400ED9DED /* UserModel.m in Sources */,
-				2F16F9331B9C254400ED9DED /* ChatCell.m in Sources */,
 				2F16F96C1B9C31BB00ED9DED /* ChatModel.m in Sources */,
 				2F16F9301B9C252300ED9DED /* ChatViewController.m in Sources */,
 				2F16F9651B9C2BE900ED9DED /* SecondViewController.m in Sources */,

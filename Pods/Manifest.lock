@@ -1,0 +1,19 @@
+PODS:
+  - Masonry (0.6.2)
+
+DEPENDENCIES:
+  - Masonry (from `https://github.com/SnapKit/Masonry.git`)
+
+EXTERNAL SOURCES:
+  Masonry:
+    :git: https://github.com/SnapKit/Masonry.git
+
+CHECKOUT OPTIONS:
+  Masonry:
+    :commit: cd7fae897dc87c30fc0688846deb824487c8ffce
+    :git: https://github.com/SnapKit/Masonry.git
+
+SPEC CHECKSUMS:
+  Masonry: 26b8777fbf857067d5307a4fbee5158112fdbb76
+
+COCOAPODS: 0.38.2

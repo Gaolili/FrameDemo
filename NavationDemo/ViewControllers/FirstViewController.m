@@ -1,6 +1,7 @@
 
 
 #import "FirstViewController.h"
+#import "ChatViewController.h"
 #import "CustomCell.h"
 #import "UserModel.h"
 @interface FirstViewController ()<UITableViewDataSource,UITableViewDelegate>
@@ -49,6 +50,13 @@
     cell.model = self.dataArr[indexPath.row];
     return cell;
 }
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    ChatViewController * chat = [[ChatViewController alloc]init];
+    [self.navigationController pushViewController:chat animated:YES];
+}
+
 
 
 #pragma mark - leftAction

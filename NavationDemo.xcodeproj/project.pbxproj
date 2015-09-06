@@ -17,6 +17,7 @@
 		2F16F9631B9C2BE900ED9DED /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F95B1B9C2BE900ED9DED /* FourViewController.m */; };
 		2F16F9641B9C2BE900ED9DED /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F95E1B9C2BE900ED9DED /* ThreeViewController.m */; };
 		2F16F9651B9C2BE900ED9DED /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F9611B9C2BE900ED9DED /* SecondViewController.m */; };
+		2F16F96C1B9C31BB00ED9DED /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F96B1B9C31BB00ED9DED /* ChatModel.m */; };
 		2F46EAE91B9037A400D39775 /* BaseIntroductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F46EAE81B9037A400D39775 /* BaseIntroductViewController.m */; };
 		2F46EAF01B905DA300D39775 /* UITextField+LeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F46EAEF1B905DA300D39775 /* UITextField+LeftView.m */; };
 		2F4DC9571B8EB0910033FC4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9561B8EB0910033FC4E /* main.m */; };
@@ -67,6 +68,8 @@
 		2F16F9601B9C2BE900ED9DED /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2F16F9611B9C2BE900ED9DED /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		2F16F9691B9C2CE200ED9DED /* AppConfig.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConfig.pch; sourceTree = "<group>"; };
+		2F16F96A1B9C31BB00ED9DED /* ChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
+		2F16F96B1B9C31BB00ED9DED /* ChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
 		2F46EAE71B9037A400D39775 /* BaseIntroductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseIntroductViewController.h; sourceTree = "<group>"; };
 		2F46EAE81B9037A400D39775 /* BaseIntroductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseIntroductViewController.m; sourceTree = "<group>"; };
 		2F46EAEE1B905DA300D39775 /* UITextField+LeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LeftView.h"; sourceTree = "<group>"; };
@@ -141,6 +144,8 @@
 		2F16F92B1B9C252300ED9DED /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2F16F96A1B9C31BB00ED9DED /* ChatModel.h */,
+				2F16F96B1B9C31BB00ED9DED /* ChatModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -537,6 +542,7 @@
 				2F4DC9A41B8F01780033FC4E /* PageTwoViewController.m in Sources */,
 				2F16F94F1B9C2B5400ED9DED /* UserModel.m in Sources */,
 				2F16F9331B9C254400ED9DED /* ChatCell.m in Sources */,
+				2F16F96C1B9C31BB00ED9DED /* ChatModel.m in Sources */,
 				2F16F9301B9C252300ED9DED /* ChatViewController.m in Sources */,
 				2F16F9651B9C2BE900ED9DED /* SecondViewController.m in Sources */,
 				2F4DC9A11B8F016C0033FC4E /* PageOneViewController.m in Sources */,

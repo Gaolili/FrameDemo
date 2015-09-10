@@ -2,11 +2,15 @@
 
 #import "SecondViewController.h"
 
+
+
 @implementation SecondViewController
 -(void)viewDidLoad{
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self addrightItems:@[@"img_1",@"img_2"]];
+    
+    
 }
 
 - (void)rightItemAction:(UIButton *)btn{

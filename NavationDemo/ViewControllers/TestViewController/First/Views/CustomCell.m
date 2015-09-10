@@ -1,7 +1,6 @@
 
 
 #import "CustomCell.h"
-
 @interface CustomCell ()
 @property (nonatomic, strong)UILabel * messageLabel;
 @end

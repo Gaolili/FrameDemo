@@ -1,6 +1,7 @@
 
 
 #import "SecondViewController.h"
+#import "LoopView.h"
 
 
 
@@ -10,7 +11,12 @@
     self.view.backgroundColor = [UIColor whiteColor];
     [self addrightItems:@[@"img_1",@"img_2"]];
     
-    
+    LoopView * loopView = [[LoopView alloc]initWithFrame:CGRectMake(50, 100, 200, 40)];
+    loopView.context = @"滚动啦";
+    loopView.speed = 0.23;
+    loopView.direction = LVDirectionLeft;
+    [loopView star];
+    [self.view addSubview:loopView];
 }
 
 - (void)rightItemAction:(UIButton *)btn{

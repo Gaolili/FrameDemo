@@ -18,8 +18,9 @@
 		2F16F9651B9C2BE900ED9DED /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F9611B9C2BE900ED9DED /* SecondViewController.m */; };
 		2F16F96C1B9C31BB00ED9DED /* ChatModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F96B1B9C31BB00ED9DED /* ChatModel.m */; };
 		2F16F9711B9C473400ED9DED /* ChatCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F96F1B9C473400ED9DED /* ChatCell.m */; };
-		2F16F9741B9C47DE00ED9DED /* CustomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F9731B9C47DE00ED9DED /* CustomToolBar.m */; };
-		2F46EAE91B9037A400D39775 /* BaseIntroductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F46EAE81B9037A400D39775 /* BaseIntroductViewController.m */; };
+		2F24DDAF1BA1746E0085BA69 /* CustomToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F16F9731B9C47DE00ED9DED /* CustomToolBar.m */; };
+		2F24DDB11BA178120085BA69 /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC97C1B8EB4A40033FC4E /* BaseTabBarController.m */; };
+		2F24DDB21BA1784C0085BA69 /* BaseIntroductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F46EAE81B9037A400D39775 /* BaseIntroductViewController.m */; };
 		2F46EAF01B905DA300D39775 /* UITextField+LeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F46EAEF1B905DA300D39775 /* UITextField+LeftView.m */; };
 		2F4DC9571B8EB0910033FC4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9561B8EB0910033FC4E /* main.m */; };
 		2F4DC95A1B8EB0910033FC4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9591B8EB0910033FC4E /* AppDelegate.m */; };
@@ -27,14 +28,12 @@
 		2F4DC9621B8EB0910033FC4E /* +.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F4DC9611B8EB0910033FC4E /* +.xcassets */; };
 		2F4DC9651B8EB0910033FC4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F4DC9631B8EB0910033FC4E /* LaunchScreen.xib */; };
 		2F4DC9711B8EB0910033FC4E /* NavationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9701B8EB0910033FC4E /* NavationDemoTests.m */; };
-		2F4DC97D1B8EB4A40033FC4E /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC97C1B8EB4A40033FC4E /* BaseTabBarController.m */; };
 		2F4DC9801B8EB4E80033FC4E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC97F1B8EB4E80033FC4E /* BaseViewController.m */; };
 		2F4DC99D1B8EFAC60033FC4E /* BasePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC99C1B8EFAC60033FC4E /* BasePageViewController.m */; };
 		2F4DC9A11B8F016C0033FC4E /* PageOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9A01B8F016C0033FC4E /* PageOneViewController.m */; };
 		2F4DC9A41B8F01780033FC4E /* PageTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9A31B8F01780033FC4E /* PageTwoViewController.m */; };
 		2F4DC9A71B8F06B20033FC4E /* PageThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9A61B8F06B20033FC4E /* PageThreeViewController.m */; };
 		2F4DC9AD1B8F19190033FC4E /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9AC1B8F19190033FC4E /* BaseNavigationController.m */; };
-		2F5A39BD1BA168C6003698CD /* LoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A39BC1BA168C6003698CD /* LoopView.m */; };
 		C319D7C8C3898FE042418750 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 780BC14E1ADF10E3D69ED197 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -67,7 +66,6 @@
 		2F16F95E1B9C2BE900ED9DED /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
 		2F16F9601B9C2BE900ED9DED /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2F16F9611B9C2BE900ED9DED /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		2F16F9691B9C2CE200ED9DED /* AppConfig.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppConfig.pch; sourceTree = "<group>"; };
 		2F16F96A1B9C31BB00ED9DED /* ChatModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatModel.h; sourceTree = "<group>"; };
 		2F16F96B1B9C31BB00ED9DED /* ChatModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatModel.m; sourceTree = "<group>"; };
 		2F16F96E1B9C473400ED9DED /* ChatCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatCell.h; sourceTree = "<group>"; };
@@ -75,6 +73,7 @@
 		2F16F9721B9C47DE00ED9DED /* CustomToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomToolBar.h; sourceTree = "<group>"; };
 		2F16F9731B9C47DE00ED9DED /* CustomToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomToolBar.m; sourceTree = "<group>"; };
 		2F16F9761B9C4D3900ED9DED /* GlobeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobeHeader.h; sourceTree = "<group>"; };
+		2F24DDB01BA174CE0085BA69 /* NavationDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavationDemo-Prefix.pch"; sourceTree = "<group>"; };
 		2F46EAE71B9037A400D39775 /* BaseIntroductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseIntroductViewController.h; sourceTree = "<group>"; };
 		2F46EAE81B9037A400D39775 /* BaseIntroductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseIntroductViewController.m; sourceTree = "<group>"; };
 		2F46EAEE1B905DA300D39775 /* UITextField+LeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LeftView.h"; sourceTree = "<group>"; };
@@ -106,7 +105,6 @@
 		2F4DC9AC1B8F19190033FC4E /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
 		2F5A39BB1BA168C6003698CD /* LoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopView.h; sourceTree = "<group>"; };
 		2F5A39BC1BA168C6003698CD /* LoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopView.m; sourceTree = "<group>"; };
-		2F5A39BE1BA16D7F003698CD /* NavationDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavationDemo.pch; sourceTree = "<group>"; };
 		7178FD02D6A017DB46019ED6 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		780BC14E1ADF10E3D69ED197 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82FB25346B059C486DAC97B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -179,8 +177,8 @@
 		2F16F9341B9C2A4800ED9DED /* AppConfig */ = {
 			isa = PBXGroup;
 			children = (
-				2F16F9691B9C2CE200ED9DED /* AppConfig.pch */,
 				2F16F9761B9C4D3900ED9DED /* GlobeHeader.h */,
+				2F24DDB01BA174CE0085BA69 /* NavationDemo-Prefix.pch */,
 			);
 			path = AppConfig;
 			sourceTree = "<group>";
@@ -350,7 +348,6 @@
 			children = (
 				2F4DC9551B8EB0910033FC4E /* Info.plist */,
 				2F4DC9561B8EB0910033FC4E /* main.m */,
-				2F5A39BE1BA16D7F003698CD /* NavationDemo.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -573,9 +570,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F16F9741B9C47DE00ED9DED /* CustomToolBar.m in Sources */,
-				2F4DC97D1B8EB4A40033FC4E /* BaseTabBarController.m in Sources */,
-				2F5A39BD1BA168C6003698CD /* LoopView.m in Sources */,
+				2F24DDB21BA1784C0085BA69 /* BaseIntroductViewController.m in Sources */,
+				2F24DDB11BA178120085BA69 /* BaseTabBarController.m in Sources */,
+				2F24DDAF1BA1746E0085BA69 /* CustomToolBar.m in Sources */,
 				2F16F9511B9C2B5400ED9DED /* CustomCell.m in Sources */,
 				2F16F9631B9C2BE900ED9DED /* FourViewController.m in Sources */,
 				2F4DC9801B8EB4E80033FC4E /* BaseViewController.m in Sources */,
@@ -595,7 +592,6 @@
 				2F4DC95A1B8EB0910033FC4E /* AppDelegate.m in Sources */,
 				2F46EAF01B905DA300D39775 /* UITextField+LeftView.m in Sources */,
 				2F4DC9571B8EB0910033FC4E /* main.m in Sources */,
-				2F46EAE91B9037A400D39775 /* BaseIntroductViewController.m in Sources */,
 				2F4DC9AD1B8F19190033FC4E /* BaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -721,6 +717,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NavationDemo/Appconfig/NavationDemo-Prefix.pch";
 				INFOPLIST_FILE = NavationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -735,6 +732,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NavationDemo/Appconfig/NavationDemo-Prefix.pch";
 				INFOPLIST_FILE = NavationDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

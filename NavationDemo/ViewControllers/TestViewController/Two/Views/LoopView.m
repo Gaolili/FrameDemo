@@ -5,7 +5,7 @@
 @interface LoopView ()
 {
     NSTimer * _timer;
-    UILabel * loopLabel;
+    UILabel * _loopLabel;
 }
 
 @end
@@ -21,6 +21,12 @@
 }
 
 - (void)setUI{
+    _loopLabel =[[UILabel alloc]init];
+    _loopLabel.text = _content;
+    [self addSubview:_loopLabel];
     
-}
+    [_loopLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+     }];
+ }
 @end

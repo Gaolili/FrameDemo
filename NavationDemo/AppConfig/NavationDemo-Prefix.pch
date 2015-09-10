@@ -1,13 +1,13 @@
 //
-//  NavationDemo.pch
+//  NavationDemo-Prefix.pch
 //  NavationDemo
 //
 //  Created by gaolili on 15/9/10.
 //  Copyright (c) 2015年 mRocker. All rights reserved.
 //
 
-#ifndef NavationDemo_NavationDemo_pch
-#define NavationDemo_NavationDemo_pch
+#ifndef NavationDemo_NavationDemo_Prefix_pch
+#define NavationDemo_NavationDemo_Prefix_pch
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.

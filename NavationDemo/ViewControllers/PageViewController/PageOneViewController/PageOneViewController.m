@@ -1,13 +1,14 @@
 
 
 #import "PageOneViewController.h"
-
+#import "PopView.h"
 @implementation PageOneViewController
 -(void)viewDidLoad{
     [super viewDidLoad];
     UILabel * lab = [self customLabel:@"1"];
     lab.frame = CGRectMake(100, 100, 100, 30);
     [self.view addSubview:lab];
+  
 }
 
 - (UILabel *)customLabel:(NSString *)title{
@@ -17,4 +18,5 @@
     lab.text = title;
     return lab;
 }
+
 @end

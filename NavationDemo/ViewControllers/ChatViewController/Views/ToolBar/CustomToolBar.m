@@ -1,7 +1,6 @@
  
 
 #import "CustomToolBar.h"
-#import "GlobeHeader.h"
 @implementation CustomToolBar
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];

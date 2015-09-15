@@ -7,8 +7,6 @@
 @interface BasePageViewController ()<UIScrollViewDelegate>
 @property(nonatomic,strong)UIScrollView * scrollView;
 @property(nonatomic,strong)UISegmentedControl * segmentControl;
-
-
 @end
 
 @implementation BasePageViewController
@@ -24,11 +22,12 @@
     _scrollView.frame = self.view.frame;
     _scrollView.contentSize =CGSizeMake(CGRectGetWidth(self.view.bounds) * _viewControllers.count, 0);
    for (int i=0; i<_viewControllers.count; i++) {
-        UIViewController * vc = [[NSClassFromString(_viewControllers[i]) alloc]init];
-        vc.view.frame = CGRectMake(i * CGRectGetWidth(self.view.bounds), 0, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds));
+        BaseViewController * vc = [[NSClassFromString(_viewControllers[i]) alloc]init];
+         vc.view.frame = CGRectMake(i * CGRectGetWidth(self.view.bounds), 0, CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds));
         [self.scrollView addSubview:vc.view];
     }
 }
+
 
 - (void)setSegmentTitles:(NSArray *)segmentTitles{
     _segmentTitles = segmentTitles;
@@ -74,6 +73,5 @@
     CGFloat offsetX = scrollView.contentOffset.x;
     self.segmentControl.selectedSegmentIndex = offsetX / CGRectGetWidth(self.view.bounds);
 }
-
 
 @end

@@ -1,7 +1,6 @@
  
 
 #import "ChatCell.h"
-#import "GlobeHeader.h"
 @interface ChatCell ()
 @property (nonatomic,strong)UIImageView * avatorImg;
 @property (nonatomic,strong)UIImageView * messBg;

@@ -34,8 +34,8 @@
 - (void)showView{
     UIViewController * topVC = [self appRootViewController];
     self.backgroundColor = [UIColor whiteColor];
-    self.frame = CGRectMake((CGRectGetWidth(topVC.view.bounds) - kAlertW) * 0.5, (CGRectGetHeight(topVC.view.bounds) - kAlertH) * 0.5, kAlertW, kAlertH);
-    self.center = topVC.view.center;
+    self.frame = CGRectMake((CGRectGetWidth(topVC.view.bounds) - kAlertW) * 0.5, 0, kAlertW, kAlertH);
+//    self.center = topVC.view.center;
     [topVC.view addSubview:self];
     
 }
@@ -58,13 +58,20 @@
         _backImgaeView = [[UIView alloc]initWithFrame:topVC.view.bounds];
         _backImgaeView.backgroundColor = [UIColor blackColor];
         _backImgaeView.alpha = 0.6f;
+        UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(removeFromSuperview)];
+        [_backImgaeView addGestureRecognizer:tap];
     }
     
     [topVC.view addSubview:_backImgaeView];
-    [UIView beginAnimations:@"fadeIn" context:nil];
-    [UIView setAnimationDuration:0.35];
+
+    [UIView animateWithDuration:0.35 animations:^{
+         self.frame = CGRectMake((CGRectGetWidth(topVC.view.bounds) - kAlertW) * 0.5, (CGRectGetHeight(topVC.view.bounds) - kAlertH) * 0.5, kAlertW, kAlertH);
+        self.center = topVC.view.center;
+    } completion:^(BOOL finished) {
+        
+    }];
     
-    [UIView commitAnimations];
+    
     
     
     [super willMoveToSuperview:newSuperview];
@@ -77,9 +84,20 @@
 
 
 - (void)removeFromSuperview{
-    [_backImgaeView removeFromSuperview];
-    _backImgaeView = nil;
-    [super removeFromSuperview];
+    
+    UIViewController * topVC = [self appRootViewController];
+    
+    [UIView animateWithDuration:0.35 animations:^{
+        self.frame = CGRectMake((CGRectGetWidth(topVC.view.bounds) - kAlertW) * 0.5,CGRectGetHeight(topVC.view.bounds), kAlertW, kAlertH);
+        
+    } completion:^(BOOL finished) {
+        [_backImgaeView removeFromSuperview];
+        _backImgaeView = nil;
+        [super removeFromSuperview];
+
+    }];
+    
+
 }
 
 

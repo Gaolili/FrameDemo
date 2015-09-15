@@ -35,7 +35,6 @@
     UIViewController * topVC = [self appRootViewController];
     self.backgroundColor = [UIColor whiteColor];
     self.frame = CGRectMake((CGRectGetWidth(topVC.view.bounds) - kAlertW) * 0.5, 0, kAlertW, kAlertH);
-//    self.center = topVC.view.center;
     [topVC.view addSubview:self];
     
 }
@@ -71,9 +70,6 @@
         
     }];
     
-    
-    
-    
     [super willMoveToSuperview:newSuperview];
     
 }
@@ -96,8 +92,6 @@
         [super removeFromSuperview];
 
     }];
-    
-
 }
 
 

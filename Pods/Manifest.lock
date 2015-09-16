@@ -29,6 +29,7 @@ PODS:
   - AFOnoResponseSerializer (1.0.0):
     - AFNetworking (~> 2.2)
     - Ono (~> 1.0)
+  - Bugtags (1.0.4)
   - FMDB (2.5):
     - FMDB/standard (= 2.5)
   - FMDB/common (2.5)
@@ -56,6 +57,7 @@ DEPENDENCIES:
   - AFNetworkActivityLogger (= 2.0.4)
   - AFNetworking (= 2.5.3)
   - AFOnoResponseSerializer (= 1.0.0)
+  - Bugtags
   - Godzippa (= 1.1.0)
   - LKDBHelper+Transaction (from `https://github.com/junhaiyang/LKDBHelper-Transaction.git`)
   - Masonry (from `https://github.com/SnapKit/Masonry.git`)
@@ -82,6 +84,7 @@ SPEC CHECKSUMS:
   AFNetworkActivityLogger: 121486778117d53b3ab1c61d264b88081d0c3eee
   AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
   AFOnoResponseSerializer: c02c8bef1d6742ac68f33ecaed41826c9657bc33
+  Bugtags: 819313a921def3ff5c64be7074ba01601e8947a2
   FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
   Godzippa: 21621e8ddc2f1521db473a72b48148c3f0e79d76
   LKDBHelper: 6bde14a7d8d1915dd6f1a960176cc868175dd14d

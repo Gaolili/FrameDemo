@@ -7,9 +7,13 @@
     [super viewDidLoad];
     UILabel * lab = [self customLabel:@"1"];
     lab.frame = CGRectMake(100, 100, 100, 30);
+    lab.userInteractionEnabled = YES;
+   
     [self.view addSubview:lab];
-  
+    
 }
+
+
 
 - (UILabel *)customLabel:(NSString *)title{
     UILabel * lab = [[UILabel alloc]init];

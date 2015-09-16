@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "BaseIntroductViewController.h"
 #import "BaseTabBarController.h"
+
+#import <Bugtags/Bugtags.h>
+
 @interface AppDelegate ()
 @property (nonatomic, strong)BaseIntroductViewController * introViewController;
 @property (nonatomic, strong)BaseTabBarController * tarBarViewController;
@@ -28,6 +31,9 @@
     }
     
     [self.window makeKeyAndVisible];
+    
+    //测试
+    [Bugtags startWithAppKey:@"01affacc44e3b33bb6defb84a76bbe2b" invocationEvent:BTGInvocationEventBubble];
     return YES;
 }
 

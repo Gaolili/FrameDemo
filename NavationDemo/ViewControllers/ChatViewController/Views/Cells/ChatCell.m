@@ -30,7 +30,10 @@
     _messInfo = [[UILabel alloc]init];
     _messInfo.font = [UIFont systemFontOfSize:14];
     _messInfo.numberOfLines = 0;
-    _messInfo.backgroundColor = [UIColor yellowColor];
+    _messInfo.layer.borderColor = [UIColor blackColor].CGColor;
+    _messInfo.layer.borderWidth = 0.5f;
+    _messInfo.layer.cornerRadius = 5;
+    _messInfo.layer.masksToBounds = NO;
     [_messBg addSubview:_messInfo];
 }
 
@@ -56,7 +59,6 @@
             make.right.bottom.equalTo(_messBg).with.offset(-5);
         }];
     }else{
-//        _messBg.image =[UIImage imageNamed:@"bubble_other"];
         _avatorImg.image = [UIImage imageNamed:@"img_5"];
         [_avatorImg mas_remakeConstraints:^(MASConstraintMaker *make) {
             make.left.top.equalTo(superView).with.offset(10);

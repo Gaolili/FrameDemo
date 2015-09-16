@@ -38,7 +38,8 @@
     NSInteger currectX ;
     if (_direction == LVDirectionLeft) {
           currectX = x - 5;
-        if (currectX < 0) {
+        if (currectX < rect.size.width) {
+            sleep(0.35);
              currectX = CGRectGetWidth(self.bounds) - 10;
          }
       }else{

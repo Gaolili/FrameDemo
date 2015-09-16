@@ -17,3 +17,7 @@ pod 'LKDBHelper+Transaction', :git => 'https://github.com/junhaiyang/LKDBHelper-
 
 # model
 pod 'MJExtension', '~> 2.5.6'
+
+#bug
+pod 'Bugtags'
+

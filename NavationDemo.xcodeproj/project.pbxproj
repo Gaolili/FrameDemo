@@ -25,7 +25,6 @@
 		2F486F711BA7BD78002DEE7F /* PageOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F486F691BA7BD78002DEE7F /* PageOneViewController.m */; };
 		2F486F721BA7BD78002DEE7F /* PageThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F486F6D1BA7BD78002DEE7F /* PageThreeViewController.m */; };
 		2F486F731BA7BD78002DEE7F /* PageTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F486F701BA7BD78002DEE7F /* PageTwoViewController.m */; };
-		2F486F761BA7BD92002DEE7F /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F486F751BA7BD92002DEE7F /* PopView.m */; };
 		2F4DC9571B8EB0910033FC4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9561B8EB0910033FC4E /* main.m */; };
 		2F4DC95A1B8EB0910033FC4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9591B8EB0910033FC4E /* AppDelegate.m */; };
 		2F4DC9601B8EB0910033FC4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F4DC95E1B8EB0910033FC4E /* Main.storyboard */; };
@@ -35,6 +34,8 @@
 		2F4DC9801B8EB4E80033FC4E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC97F1B8EB4E80033FC4E /* BaseViewController.m */; };
 		2F4DC99D1B8EFAC60033FC4E /* BasePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC99C1B8EFAC60033FC4E /* BasePageViewController.m */; };
 		2F4DC9AD1B8F19190033FC4E /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9AC1B8F19190033FC4E /* BaseNavigationController.m */; };
+		2F99358C1BA96560004BF85E /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F486F751BA7BD92002DEE7F /* PopView.m */; };
+		2F9935901BA96659004BF85E /* PuperPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F99358F1BA96659004BF85E /* PuperPopView.m */; settings = {ASSET_TAGS = (); }; };
 		2FCB7D931BA17D5200F5F7FF /* LoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB7D921BA17D5200F5F7FF /* LoopView.m */; };
 		C319D7C8C3898FE042418750 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 780BC14E1ADF10E3D69ED197 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -106,6 +107,8 @@
 		2F4DC99C1B8EFAC60033FC4E /* BasePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePageViewController.m; sourceTree = "<group>"; };
 		2F4DC9AB1B8F19190033FC4E /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		2F4DC9AC1B8F19190033FC4E /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		2F99358E1BA96659004BF85E /* PuperPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuperPopView.h; sourceTree = "<group>"; };
+		2F99358F1BA96659004BF85E /* PuperPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuperPopView.m; sourceTree = "<group>"; };
 		2FCB7D911BA17D5200F5F7FF /* LoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopView.h; sourceTree = "<group>"; };
 		2FCB7D921BA17D5200F5F7FF /* LoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoopView.m; sourceTree = "<group>"; };
 		2FCB7D941BA17F2C00F5F7FF /* Navation_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Navation_Prefix.pch; sourceTree = "<group>"; };
@@ -452,6 +455,8 @@
 			children = (
 				2FCB7D911BA17D5200F5F7FF /* LoopView.h */,
 				2FCB7D921BA17D5200F5F7FF /* LoopView.m */,
+				2F99358E1BA96659004BF85E /* PuperPopView.h */,
+				2F99358F1BA96659004BF85E /* PuperPopView.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -608,16 +613,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F99358C1BA96560004BF85E /* PopView.m in Sources */,
 				2F24DDB21BA1784C0085BA69 /* BaseIntroductViewController.m in Sources */,
 				2F24DDB11BA178120085BA69 /* BaseTabBarController.m in Sources */,
 				2FCB7D931BA17D5200F5F7FF /* LoopView.m in Sources */,
 				2F24DDAF1BA1746E0085BA69 /* CustomToolBar.m in Sources */,
+				2F9935901BA96659004BF85E /* PuperPopView.m in Sources */,
 				2F486F711BA7BD78002DEE7F /* PageOneViewController.m in Sources */,
 				2F16F9511B9C2B5400ED9DED /* CustomCell.m in Sources */,
 				2F16F9631B9C2BE900ED9DED /* FourViewController.m in Sources */,
 				2F4DC9801B8EB4E80033FC4E /* BaseViewController.m in Sources */,
 				2F16F9711B9C473400ED9DED /* ChatCell.m in Sources */,
-				2F486F761BA7BD92002DEE7F /* PopView.m in Sources */,
 				2F16F94F1B9C2B5400ED9DED /* UserModel.m in Sources */,
 				2F16F96C1B9C31BB00ED9DED /* ChatModel.m in Sources */,
 				2F16F9301B9C252300ED9DED /* ChatViewController.m in Sources */,

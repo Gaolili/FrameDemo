@@ -34,8 +34,9 @@
 		2F4DC9801B8EB4E80033FC4E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC97F1B8EB4E80033FC4E /* BaseViewController.m */; };
 		2F4DC99D1B8EFAC60033FC4E /* BasePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC99C1B8EFAC60033FC4E /* BasePageViewController.m */; };
 		2F4DC9AD1B8F19190033FC4E /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F4DC9AC1B8F19190033FC4E /* BaseNavigationController.m */; };
+		2F76C2421BAA8DA100B31972 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F76C2411BAA8DA100B31972 /* AnimationViewController.m */; };
 		2F99358C1BA96560004BF85E /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F486F751BA7BD92002DEE7F /* PopView.m */; };
-		2F9935901BA96659004BF85E /* PuperPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F99358F1BA96659004BF85E /* PuperPopView.m */; settings = {ASSET_TAGS = (); }; };
+		2F9935901BA96659004BF85E /* PuperPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F99358F1BA96659004BF85E /* PuperPopView.m */; };
 		2FCB7D931BA17D5200F5F7FF /* LoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FCB7D921BA17D5200F5F7FF /* LoopView.m */; };
 		C319D7C8C3898FE042418750 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 780BC14E1ADF10E3D69ED197 /* libPods.a */; };
 /* End PBXBuildFile section */
@@ -107,6 +108,8 @@
 		2F4DC99C1B8EFAC60033FC4E /* BasePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePageViewController.m; sourceTree = "<group>"; };
 		2F4DC9AB1B8F19190033FC4E /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
 		2F4DC9AC1B8F19190033FC4E /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		2F76C2401BAA8DA100B31972 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		2F76C2411BAA8DA100B31972 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
 		2F99358E1BA96659004BF85E /* PuperPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PuperPopView.h; sourceTree = "<group>"; };
 		2F99358F1BA96659004BF85E /* PuperPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PuperPopView.m; sourceTree = "<group>"; };
 		2FCB7D911BA17D5200F5F7FF /* LoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoopView.h; sourceTree = "<group>"; };
@@ -282,6 +285,8 @@
 				2F5A39BA1BA168C6003698CD /* Views */,
 				2F16F9601B9C2BE900ED9DED /* SecondViewController.h */,
 				2F16F9611B9C2BE900ED9DED /* SecondViewController.m */,
+				2F76C2401BAA8DA100B31972 /* AnimationViewController.h */,
+				2F76C2411BAA8DA100B31972 /* AnimationViewController.m */,
 			);
 			path = Two;
 			sourceTree = "<group>";
@@ -631,6 +636,7 @@
 				2F486F721BA7BD78002DEE7F /* PageThreeViewController.m in Sources */,
 				2F16F9551B9C2B9C00ED9DED /* FirstViewController.m in Sources */,
 				2F4DC99D1B8EFAC60033FC4E /* BasePageViewController.m in Sources */,
+				2F76C2421BAA8DA100B31972 /* AnimationViewController.m in Sources */,
 				2F486F731BA7BD78002DEE7F /* PageTwoViewController.m in Sources */,
 				2F16F9621B9C2BE900ED9DED /* FiveViewController.m in Sources */,
 				2F16F9501B9C2B5400ED9DED /* UserViewModel.m in Sources */,

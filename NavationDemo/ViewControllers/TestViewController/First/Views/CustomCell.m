@@ -2,7 +2,6 @@
 
 #import "CustomCell.h"
 @interface CustomCell ()
-@property (nonatomic, strong)UILabel * messageLabel;
 @end
 
 @implementation CustomCell
@@ -17,6 +16,11 @@
 - (void)setUI{
     _messageLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, CGRectGetWidth(self.contentView.bounds), CGRectGetHeight(self.contentView.bounds))];
     [self.contentView addSubview:_messageLabel];
+    
+    
+    UIView * line = [[UIView alloc]initWithFrame:CGRectMake(0, CGRectGetHeight(self.contentView.bounds) -1, CGRectGetWidth(self.contentView.bounds), 1)];
+    line.backgroundColor = [UIColor redColor];
+    [self.contentView addSubview:line];
 }
 
 - (void)setModel:(UserModel *)model{

@@ -33,7 +33,7 @@
     [self.window makeKeyAndVisible];
     
     //测试
-    [Bugtags startWithAppKey:@"01affacc44e3b33bb6defb84a76bbe2b" invocationEvent:BTGInvocationEventBubble];
+//    [Bugtags startWithAppKey:@"01affacc44e3b33bb6defb84a76bbe2b" invocationEvent:BTGInvocationEventBubble];
     return YES;
 }
 

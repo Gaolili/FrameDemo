@@ -2,6 +2,6 @@
 
 #import "BaseViewController.h"
 
-@interface FourViewController : BaseViewController
+@interface FourViewController : BaseViewController 
 
 @end
